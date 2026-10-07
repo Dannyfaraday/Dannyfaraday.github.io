@@ -229,7 +229,7 @@ footer{font:500 12.5px var(--mono);color:var(--muted);padding-top:8px}
     </div>
     <h1>Daniel<br>Eniojukan</h1>
     <div class="roles"><span class="r1">Security Analyst</span> <span class="amp">&amp;</span> <span class="r2">DevSecOps Engineer</span></div>
-    <p class="tag">I break, detect and ship — writing detections by day, running production Kubernetes by night, and publishing the threat research in between.</p>
+    <p class="tag">I break, detect and ship — writing detections by day, running Kubernetes by night, and publishing the threat research in between.</p>
 
     <div class="lens">
       <div class="lbl">Lens</div>
@@ -285,7 +285,7 @@ footer{font:500 12.5px var(--mono);color:var(--muted);padding-top:8px}
 <span class="caret"></span></pre>
       </div>
 
-      <p class="lead">I started by <strong>racking servers and troubleshooting hardware</strong>, moved to <strong>managing production Kubernetes clusters</strong> with 240+ Helm charts at Nigeria's payment infrastructure, and now I <strong>write detections, validate a SIEM against real attack techniques, and publish threat research</strong> — while still running the platform. My thesis is on anomaly detection for industrial control systems.</p>
+      <p class="lead">I started by <strong>racking servers and troubleshooting hardware</strong>, moved to <strong>managing Kubernetes clusters</strong> with 240+ Helm charts at Nigeria's payment infrastructure, and now I <strong>write detections, validate a SIEM against real attack techniques, and publish threat research</strong> — while still running the platform. My thesis is on anomaly detection for industrial control systems.</p>
 
       <div class="stats">
         <div class="stat"><b>~5</b><span>years in tech</span></div>
@@ -312,7 +312,7 @@ footer{font:500 12.5px var(--mono);color:var(--muted);padding-top:8px}
           <div>
             <h3>DevSecOps/Platform Engineer <span class="at">· SystemSpecs (Remita)</span><span class="now-pill">current</span></h3>
             <div class="sub">Fintech, Lagos — Nigeria's payment infrastructure</div>
-            <p>I own production Kubernetes clusters running 240+ Helm charts across Nigeria's payment infrastructure — building and maintaining CI/CD pipelines in GitLab CI, managing GitOps deployments with ArgoCD, and handling secrets through HashiCorp Vault &amp; External Secrets Operator. Day-to-day I do infrastructure provisioning, server hardening, incident response and troubleshooting across the stack, API testing for platform services, and writing runbooks and technical documentation. I run the full observability layer (Prometheus, Grafana, Loki, Tempo, OpenTelemetry) and handle threat prevention, patching and compliance hardening for the platform.</p>
+            <p>I own Kubernetes clusters running 240+ Helm charts across Nigeria's payment infrastructure — building and maintaining CI/CD pipelines in GitLab CI, managing GitOps deployments with ArgoCD, and handling secrets through HashiCorp Vault &amp; External Secrets Operator. Day-to-day I do infrastructure provisioning, server hardening, incident response and troubleshooting across the stack, API testing for platform services, and writing runbooks and technical documentation. I run the full observability layer (Prometheus, Grafana, Loki, Tempo, OpenTelemetry) and handle threat prevention, patching and compliance hardening for the platform.</p>
             <div class="chips"><span>Kubernetes</span><span>CI/CD</span><span>ArgoCD</span><span>Vault</span><span>Prometheus</span><span>Grafana</span><span>GitLab CI</span><span>Helm</span><span>Incident response</span><span>Hardening</span><span>API testing</span></div>
           </div>
         </article>
@@ -365,7 +365,7 @@ footer{font:500 12.5px var(--mono);color:var(--muted);padding-top:8px}
         <article class="proj lensable" data-lens="sec">
           <div class="top"><div><div class="kind">Detection engineering · published</div><h3>Git Hook Persistence Detection</h3></div>
             <a class="gh" href="https://www.purpleiris.io/blog/poisoned-coding-tests-fake-recruiter-developer-malware" target="_blank" rel="noopener" aria-label="Read the write-up"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z"/></svg></a></div>
-          <p>A Sigma rule that catches Node.js writing Git hooks — the persistence step used by the NodeRabbit implant in Iran-linked fake-recruiter attacks. Loaded unchanged into PurpleIris SIEM and validated by replaying Sysmon telemetry through the production ingest path, with a benign git clone as a decoy.</p>
+          <p>A Sigma rule that catches Node.js writing Git hooks — the persistence step used by the NodeRabbit implant in Iran-linked fake-recruiter attacks. Loaded unchanged into PurpleIris SIEM and validated by replaying Sysmon telemetry through the ingest path, with a benign git clone as a decoy.</p>
           <div class="metric">1 high-severity alert in ~10s · decoy stayed silent · lineage traced to npm start</div>
           <div class="chips"><span>Sigma</span><span>Sysmon</span><span>MITRE T1546</span><span>SIEM</span></div>
         </article>
@@ -417,7 +417,7 @@ footer{font:500 12.5px var(--mono);color:var(--muted);padding-top:8px}
           <div class="chips"><span>ICS/OT</span><span>Raspberry Pi</span><span>SWaT</span><span>WADI</span></div>
         </article>
         <article class="proj lensable" data-lens="sec">
-          <div class="top"><div><div class="kind">Client audit · private</div><h3>Production SaaS Security Audit</h3></div></div>
+          <div class="top"><div><div class="kind">Client audit · private</div><h3> SaaS Security Audit</h3></div></div>
           <p>An end-to-end review of a live Firebase-backed SaaS — from auth rules to data exposure — delivered as a prioritised report with fixes.</p>
           <div class="metric">47 findings reported</div>
           <div class="chips"><span>Firebase</span><span>AppSec</span><span>Reporting</span></div>
